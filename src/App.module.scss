@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 40px;
+  background-color: lightblue;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -320px;
+  height: 100vh;
+  width: 320px;
+
+  overflow: hidden;
+  background-color: lightpink;
+  transition: left 0.5s ease-in-out;
+}
+
+.menuOpen {
+  left: 0;
+}
